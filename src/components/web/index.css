@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex: 1;
+  /* align-items: center;verticaly allign all item to center */
+  align-items: center;
+}
+.nav-element {
+  font-size: 20px;
+  margin-right: 20px;
+
+  font-weight: 700;
+}
+.nav-element a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+}
+.nav-element:last-child {
+  margin-right: 0px;
+}
