@@ -3,7 +3,7 @@ import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 const Web = () => {
   return (
-    <div className="container">
+    <div className="web-container">
       <div className="nav-element">
         <a href="#projects">
           <i class="fas fa-tasks nav-logo"></i>Projects

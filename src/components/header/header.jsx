@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Mobile from "../mobile/index";
-import Web from "../web/index";
+import Mobile from "./mobile/index";
+import Web from "./web/index";
 import "./header.css";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); //useState is same as setState in class based it return array of two value value,function;
@@ -16,7 +16,7 @@ const Header = () => {
           <div onClick={() => setIsOpen(!isOpen)}>
             <i class="fas fa-bars menu-icon"></i>
           </div>
-          {isOpen && <Mobile />}
+          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>
       </div>
     </div>
