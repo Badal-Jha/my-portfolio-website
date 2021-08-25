@@ -1,5 +1,6 @@
 .mobile-container {
   background-color: white;
+  z-index: 1;
   position: absolute;
   height: 100vh;
   width: 60vw;
