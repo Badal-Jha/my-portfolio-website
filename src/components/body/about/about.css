@@ -8,6 +8,7 @@
 }
 .about-info {
   font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
   color: rgb(53, 50, 50);
 }
 .moving-text {
@@ -28,5 +29,6 @@
   }
   .about-info {
     font-size: 18px;
+    width: 100%;
   }
 }
