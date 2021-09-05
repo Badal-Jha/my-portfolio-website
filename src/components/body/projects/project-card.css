@@ -19,7 +19,7 @@
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  max-width: 40%;
+  max-width: 60%;
 }
 .project-links {
   margin-top: 10px;

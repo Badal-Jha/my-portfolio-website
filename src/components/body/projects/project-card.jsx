@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
 
-      <img src={project.image} alt="image" className="project-photo" />
+      <img src={project.image} alt="project" className="project-photo" />
     </div>
   );
 };
