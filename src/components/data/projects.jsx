@@ -1,13 +1,13 @@
 const projects = [
   {
     id: 1,
-    title: "Blog App",
+    title: "Portfolio website",
     about:
-      "This is a simple blog application to create,post,update and delete the articles.in frontend HTML,CSS ans javaScript used and in backend nodejs express and mongodb is used",
-    tags: ["NodesJS", "Express", "MongoDB"],
+      "This is my personal portfolio website build usin Reactjs and hosted on google firebase",
+    tags: ["ReactJS", "JS", "Firebase", "html", "css"],
     demo: "",
-    github: "https://github.com/Badal-Jha/Book-List-App",
-    image: require("../../assets/projectImages/movieApp.png").default,
+    github: "https://github.com/Badal-Jha/my-portfolio-website",
+    image: require("../../assets/projectImages/portfolio.png").default,
   },
   {
     id: 2,
@@ -20,6 +20,16 @@ const projects = [
   },
   {
     id: 3,
+    title: "Blockchain Based Voting machine",
+    about:
+      "This is a decentrilised voting machine based on etherium blockchain. Means This system is fully secured as a person or a specific party cannot able to change the votes and if they try to change the data all the other nodes will be able to see it in their node. There is a client side application that will talk to the smart contract written by me ",
+    tags: ["Etherium", "Solidity", "Web3.js", "NodesJS", "Express"],
+    demo: "",
+    github: "https://github.com/Badal-Jha/Covid-Tracker",
+    image: require("../../assets/projectImages/election.png").default,
+  },
+  {
+    id: 4,
     title: "Movie App",
     about: "This is a simple website to see reviews and rating of movies",
     tags: ["Javascript", "NodesJS", "Express"],

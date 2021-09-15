@@ -1,7 +1,7 @@
 import React from "react";
 import photo from "../../../assets/photo.png";
 import "./about.css";
-import Contact from "../../comman/contact/contact";
+import SocialContact from "../../comman/contact/contact";
 import Typical from "react-typical";
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
           <img src={photo} alt="Badal" className="photo" />
         </div>
       </div>
-      <Contact />
+      <SocialContact />
     </div>
   );
 };

@@ -1,0 +1,15 @@
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer-section > div {
+  font-size: 18px;
+  font-weight: 800;
+}
+/* webpack compile all css file at same time hence all the .section-title class will change */
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+}

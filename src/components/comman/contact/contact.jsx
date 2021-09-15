@@ -1,14 +1,14 @@
 import React from "react";
 import { SocialData } from "../../data/social";
 import "./contact.css";
-const Contact = () => {
+const SocialContact = () => {
   const data = SocialData;
 
   return (
     <div className="contact">
       {data.map((item) => {
         return (
-          <a key={item.platform} href={item.link}>
+          <a key={item.platform} href={item.link} target="_blank">
             <div className="contact-icon-div">
               <img src={item.icon} className="contact-icon" alt="contact" />
             </div>
@@ -19,4 +19,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SocialContact;
